@@ -20,8 +20,8 @@ def consolidate_excel_files(source_folder, output_file, sheet_name):
     print(f"Consolidation complete! Saved to {output_file}")
 
 # Example usage
-source_folder = "C:/Users/JamieHill/OneDrive - UNYBRANDS Operations Ltd/Documents/Python Code Test"  # Update with actual path
-output_file = "C:/Users/JamieHill/OneDrive - UNYBRANDS Operations Ltd/Documents/Python Code Test/consolidated.xlsx"  # Update with desired output file
+source_folder = ""  # Update with actual path
+output_file = ""  # Update with desired output file
 sheet_name = "Model Tab"  # Update with the specific sheet name
 
 consolidate_excel_files(source_folder, output_file, sheet_name)
